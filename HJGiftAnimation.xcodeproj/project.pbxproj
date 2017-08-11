@@ -14,6 +14,11 @@
 		A30D04B51F3B2D3A00F0DF85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30D04B31F3B2D3A00F0DF85 /* LaunchScreen.storyboard */; };
 		A30D04C01F3B2D3B00F0DF85 /* HJGiftAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D04BF1F3B2D3B00F0DF85 /* HJGiftAnimationTests.swift */; };
 		A30D04CB1F3B2D3B00F0DF85 /* HJGiftAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D04CA1F3B2D3B00F0DF85 /* HJGiftAnimationUITests.swift */; };
+		A382FC1D1F3C08F2001F7160 /* HJGiftChannelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A382FC1C1F3C08F2001F7160 /* HJGiftChannelModel.swift */; };
+		A382FC1F1F3C0905001F7160 /* HJGiftChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A382FC1E1F3C0905001F7160 /* HJGiftChannelView.swift */; };
+		A382FC211F3C118F001F7160 /* HJGiftContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A382FC201F3C118F001F7160 /* HJGiftContainerView.swift */; };
+		A3C040511F3C4C03009F4274 /* HJGiftDigitLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C040501F3C4C03009F4274 /* HJGiftDigitLabel.swift */; };
+		A3D50B1F1F3C493700781829 /* HJGiftChannelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D50B1E1F3C493700781829 /* HJGiftChannelView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		A30D04C61F3B2D3B00F0DF85 /* HJGiftAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJGiftAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30D04CA1F3B2D3B00F0DF85 /* HJGiftAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HJGiftAnimationUITests.swift; sourceTree = "<group>"; };
 		A30D04CC1F3B2D3B00F0DF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A382FC1C1F3C08F2001F7160 /* HJGiftChannelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HJGiftChannelModel.swift; path = ../../../../../Mrhuang/Desktop/HJGiftAnimation/HJGiftAnimation/HJGiftAnimation/HJGiftChannelModel.swift; sourceTree = "<group>"; };
+		A382FC1E1F3C0905001F7160 /* HJGiftChannelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HJGiftChannelView.swift; path = ../../../../../Mrhuang/Desktop/HJGiftAnimation/HJGiftAnimation/HJGiftAnimation/HJGiftChannelView.swift; sourceTree = "<group>"; };
+		A382FC201F3C118F001F7160 /* HJGiftContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HJGiftContainerView.swift; path = ../../../../../Mrhuang/Desktop/HJGiftAnimation/HJGiftAnimation/HJGiftAnimation/HJGiftContainerView.swift; sourceTree = "<group>"; };
+		A3C040501F3C4C03009F4274 /* HJGiftDigitLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HJGiftDigitLabel.swift; path = ../../../../../Mrhuang/Desktop/HJGiftAnimation/HJGiftAnimation/HJGiftAnimation/HJGiftDigitLabel.swift; sourceTree = "<group>"; };
+		A3D50B1E1F3C493700781829 /* HJGiftChannelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HJGiftChannelView.xib; path = ../../../../../Mrhuang/Desktop/HJGiftAnimation/HJGiftAnimation/HJGiftAnimation/HJGiftChannelView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		A30D04A91F3B2D3A00F0DF85 /* HJGiftAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				A30D04D81F3B2D8800F0DF85 /* HJGiftAnimation */,
 				A30D04AA1F3B2D3A00F0DF85 /* AppDelegate.swift */,
 				A30D04AC1F3B2D3A00F0DF85 /* ViewController.swift */,
 				A30D04AE1F3B2D3A00F0DF85 /* Main.storyboard */,
@@ -123,6 +134,18 @@
 				A30D04CC1F3B2D3B00F0DF85 /* Info.plist */,
 			);
 			path = HJGiftAnimationUITests;
+			sourceTree = "<group>";
+		};
+		A30D04D81F3B2D8800F0DF85 /* HJGiftAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A382FC1C1F3C08F2001F7160 /* HJGiftChannelModel.swift */,
+				A382FC201F3C118F001F7160 /* HJGiftContainerView.swift */,
+				A382FC1E1F3C0905001F7160 /* HJGiftChannelView.swift */,
+				A3D50B1E1F3C493700781829 /* HJGiftChannelView.xib */,
+				A3C040501F3C4C03009F4274 /* HJGiftDigitLabel.swift */,
+			);
+			path = HJGiftAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +257,7 @@
 			files = (
 				A30D04B51F3B2D3A00F0DF85 /* LaunchScreen.storyboard in Resources */,
 				A30D04B21F3B2D3A00F0DF85 /* Assets.xcassets in Resources */,
+				A3D50B1F1F3C493700781829 /* HJGiftChannelView.xib in Resources */,
 				A30D04B01F3B2D3A00F0DF85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3C040511F3C4C03009F4274 /* HJGiftDigitLabel.swift in Sources */,
+				A382FC1D1F3C08F2001F7160 /* HJGiftChannelModel.swift in Sources */,
+				A382FC1F1F3C0905001F7160 /* HJGiftChannelView.swift in Sources */,
 				A30D04AD1F3B2D3A00F0DF85 /* ViewController.swift in Sources */,
+				A382FC211F3C118F001F7160 /* HJGiftContainerView.swift in Sources */,
 				A30D04AB1F3B2D3A00F0DF85 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,6 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -505,6 +535,7 @@
 				A30D04D11F3B2D3B00F0DF85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A30D04D21F3B2D3B00F0DF85 /* Build configuration list for PBXNativeTarget "HJGiftAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +544,7 @@
 				A30D04D41F3B2D3B00F0DF85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A30D04D51F3B2D3B00F0DF85 /* Build configuration list for PBXNativeTarget "HJGiftAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +553,7 @@
 				A30D04D71F3B2D3B00F0DF85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
